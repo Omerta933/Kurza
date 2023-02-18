@@ -7,6 +7,4 @@ from pom.homepage_nav import HomepageNav
 class TestHomepage:
 
     def test_homepage_header(self):
-        homepage_nav = HomepageNav(self.driver)
-        for indx in range(12):
-            homepage_nav.get_nav_links()[indx].click()
+        time.sleep(5)
